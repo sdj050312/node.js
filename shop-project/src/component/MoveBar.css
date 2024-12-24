@@ -1,0 +1,24 @@
+.page-move{
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page-move li {
+    margin: 10px;
+    font-size: 2rem;
+}
+.page-move li a{
+    color: rgb(104, 216, 129);
+    transition: .3s;
+}
+
+.page-move li a:hover{
+    font-size: 2.2rem;
+    color: rgb(1, 95, 22);
+}

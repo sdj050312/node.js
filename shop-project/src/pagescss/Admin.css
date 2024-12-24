@@ -1,0 +1,87 @@
+.admin-container{
+    background-color: rgb(70, 70, 70);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.admin-container form{
+    width: 1000px;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+.admin-list{
+    margin-top: 10px;
+   
+    overflow: auto;
+    width: 1000px;
+}
+.admin-list li {
+   
+    width: 100%;
+    padding: 2%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-list li a{
+    font-size: .9rem;
+   
+}
+table, tr, td, th{
+    text-align: center;
+    border: none;
+    width: 1000px;
+}
+td{
+    width: 1000px;
+   
+    background-color: white;
+}
+th{
+    background-color: rgb(2, 173, 45);
+}
+td button{
+    background-color: rgb(243, 118, 118);
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
+    transition: .3s;
+}
+td button:hover{
+    background-color: rgb(146, 12, 12);
+    color: white;
+}
+.admin-list ul{
+    
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-list form{
+    
+    width: 100%;
+    border-radius: 0;
+}
+.admin-list input{
+    width: 150px;
+}
+.admin-list label {
+    font-size: .8rem;
+}
+.active-tab {
+    background-color: white;
+}
+.active-tab a{
+    color: black;
+}
+.inactive-tab{
+    background-color: rgb(2, 173, 45);
+}
+.inactive-tab a{
+    color: white;
+}

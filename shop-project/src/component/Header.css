@@ -1,0 +1,38 @@
+.head {
+  z-index: 100;
+    position: fixed;
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  background-color: rgb(2, 94, 40);
+ 
+}
+.head a{
+  color: white;
+}
+.head li:nth-child(1) a{
+  color: rgb(84, 173, 84);
+}
+.head-link {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.head-link button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+  font-weight: 900;
+}
+.head-link button:hover {
+  background-color: white;
+  color: black;
+}
+

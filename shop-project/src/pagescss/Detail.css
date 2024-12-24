@@ -1,0 +1,98 @@
+.cap-container{
+    border: solid 1px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(31, 37, 33);
+    align-items: center;
+    justify-content: center;
+
+}
+.product-img{
+    border: solid 1px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+}
+.product-img img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.product-title{
+    width: 400px;
+    padding: 5px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    border: solid 1px;
+}
+.sale-content{
+   position: relative;
+    height: 400px;
+    width: 500px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale-content form {
+    overflow: hidden;
+    
+    border-radius: 10px;
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.select-color{
+    width: 70%;
+}
+.select-color select{
+       font-family:"Sigmar One", serif;
+    
+    width: 90px;
+}
+.sale-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    width: 80%;
+    bottom: 0px;
+    position: absolute;
+    font-size: 1rem;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(43, 42, 42);
+    
+}
+.sale-btn button{
+    padding: 3px;
+    font-size: 1rem;
+    width: 80%;
+    background-color: black;
+    border: none;
+    color: white;
+    transition: .5s;
+    border-radius: 10px;
+}
+.sale-btn button:hover{
+    background-color: white;
+    color: black;
+}
+.sale-btn a{
+    color: rgb(114, 240, 156);
+    font-size: 1.5rem;
+    transition: .5s;
+}
+.sale-btn a:hover{
+    transition: .5s;
+    font-size: 1.6rem;
+    color: rgb(180, 247, 202);
+}

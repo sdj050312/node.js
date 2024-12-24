@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+html, body {
+    font-family:"Sigmar One", serif;
+    cursor: url('../src/assets/dog-removebg-preview\ \(2\).png') auto;
+}
+input, button{
+      font-family:"Sigmar One", serif;
+}
+ul, li {
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    
+}
